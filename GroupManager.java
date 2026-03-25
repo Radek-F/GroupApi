@@ -11,22 +11,7 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
-/**
- * Roblox Group Manager — Whitelist Edition with AutoKick
- *
- * Build & run:
- *   javac RobloxGroupManager.java
- *   java RobloxGroupManager
- *
- * Requires: Java 11+  (no extra libraries)
- *
- * HOW IT WORKS:
- *   - Enter your main group ID
- *   - Enter one or more "required" subgroup IDs
- *   - A member is SAFE  if they are in AT LEAST ONE subgroup
- *   - A member is BAD   if they are in NONE of the subgroups -> queued for kick
- *   - Paste your .ROBLOSECURITY cookie to enable the AutoKick button
- */
+
 public class GroupManager extends JFrame {
 
     // Palette
